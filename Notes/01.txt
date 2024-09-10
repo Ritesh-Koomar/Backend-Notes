@@ -1,0 +1,32 @@
+Backend Notes 01
+-> node -v // gives version of nodejs
+-> utility npm -v
+-> computer(sends request) <-------> server
+-> server listens and gives the response
+-> / -> home route
+->/login -> login route
+
+-> getRequest
+
+Steps to go .............................
+make an empty node application 
+-> npm init 
+-> give the details as it asks
+-> package.json file is created
+-> make a file as index.js
+-> in the script command in json "start" : "npm run start" 
+-> Now go to express
+-> npm install express
+-> copy the hello world code on express
+-> paste it on index.js
+-> virtual ports to listen the request
+-> like hello world add more responses
+-> similarly make a twitter route
+-> then make a login route
+-> make a YouTube route
+-> not necessary that on some other device same port will be free
+-> npm install .env
+-> make a .env file
+-> write PORT = 3000 in it
+-> require dotenv.config
+-> while listening app.listen - process.env.PORT
